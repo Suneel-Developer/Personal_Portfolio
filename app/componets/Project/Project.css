@@ -24,7 +24,6 @@
 .project .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 0.5rem 0.5rem 0 0;
 }
 .pdetails {
@@ -42,31 +41,27 @@
   color: var(--white);
   font-weight: 400;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .pdetails a {
-  border: 1px solid var(--text);
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
-  color: var(--text);
-  font-weight: 400;
-  font-size: 1rem;
-  justify-content: space-between;
-  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
 }
 .pdetails svg {
-  font-size: 1.5rem;
+  border: 1px solid var(--text);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: .6rem;
   color: var(--text);
+  transition: .3s;
 }
-.pdetails a:hover {
-  border: 1px solid var(--white);
-}
-.pdetails a:hover svg {
+.pdetails a svg:hover {
+  border: 1px solid var(--primary);
   color: var(--white);
+
 }
-.pdetails a:hover h2 {
-    color: var(--white);
-  }
+
 
 
   @media screen and (max-width: 868px){

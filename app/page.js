@@ -28,7 +28,6 @@ export default function Home() {
       <About />
       <Footer />
       <Icon />
-      
     </main>
   );
 }
