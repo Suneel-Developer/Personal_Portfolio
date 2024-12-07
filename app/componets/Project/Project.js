@@ -62,7 +62,7 @@ const Project = () => {
             <span>NEXT JS / Tailwind CSS </span>
             <h2>Netflix Landing Page </h2>
             <Link
-              href="https://netflix-website-landing-page.netlify.app/"
+              href="https://netflix-movie-landing-page.vercel.app/"
               className="flex"
               target="_blank"
             >
